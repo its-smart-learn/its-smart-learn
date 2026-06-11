@@ -20,19 +20,20 @@
         h1 { margin: 0; font-size: 3rem; color: #ffffff; letter-spacing: 1px; }
         .subtitle { font-size: 1.3rem; color: #eeeeee; margin-top: 10px; opacity: 0.9; }
         .container { max-width: 800px; margin: 50px auto; padding: 20px; }
-        .btn-disabled {
+        .btn {
             display: inline-block;
-            background-color: #333333;
-            color: #888888;
+            background-color: #00adb5;
+            color: #121212;
             padding: 15px 35px;
             font-size: 1.2rem;
             font-weight: bold;
             text-decoration: none;
             border-radius: 30px;
             margin: 20px 0;
-            cursor: not-allowed;
-            border: 1px solid #444444;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 173, 181, 0.3);
         }
+        .btn:hover { transform: scale(1.05); background-color: #00fff6; box-shadow: 0 6px 20px rgba(0, 255, 246, 0.5); }
         .features { text-align: left; background: #1e1e1e; padding: 25px; border-radius: 10px; margin-top: 30px; }
         li { margin-bottom: 12px; color: #eeeeee; font-size: 1.05rem; }
         footer { margin-top: 100px; padding: 20px; color: #666666; font-size: 0.9rem; }
@@ -47,12 +48,12 @@
 
     <div class="container">
         <h2>Physics Calculator Pro (v1.0)</h2>
-        <p>Welcome to <strong>Its Smart Learn</strong>. Our flagship utility software is currently being finalized for cloud deployment. Check back in a few moments to download the standalone Windows setup!</p>
+        <p>Welcome to <strong>Its Smart Learn</strong>. Our flagship utility software is now officially deployed! Click below to download the standalone Windows setup installer securely.</p>
         
-        <div class="btn-disabled">⏳ Software Deploying Soon...</div>
+        <a href="Physics_Calculator_Pro_Setup.exe" class="btn" download>⚡ Download Installer (.exe)</a>
 
         <div class="features">
-            <h3>🎛️ Upcoming Software Features:</h3>
+            <h3>🎛️ Software Features:</h3>
             <ul>
                 <li>📊 <strong>Comprehensive Physics Engine:</strong> Instantly solve complex equations in Kinematics, Dynamics, and Mechanics.</li>
                 <li>🎨 <strong>Dynamic Workspace UI:</strong> Switch between multiple custom-built dark and light display modes seamlessly.</li>
